@@ -19,5 +19,3 @@ if __name__ == '__main__':
     print vectors['HA']
 
 
-x.split('!')[-2].split(' ')[-1].upper
-x = 'Hi! This python course is awesome! We enjoy it really much.'
