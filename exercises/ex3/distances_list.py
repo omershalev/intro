@@ -10,20 +10,16 @@ if __name__ == '__main__':
                        ]
     distances = []
 
+    # TODO: calculate the distances between each pair of points and add to distances
     print 'The distances are:'
-    for pair in pairs_of_points:
-        distances.append(euclidean_distance(pair[0], pair[1]))
     print distances
 
     print 'The distances in ascending order are:'
-    distances.sort()
-    print distances
+    # TODO: print the distances in ascending order
 
     print 'The miminal distance in the list is:'
-    print distances[0]
+    # TODO: print the minimal distance in the list
 
     print 'The two largest distances in the list are:'
-    print distances[-2], distances[-1]
+    # TODO: print the two largest distances in the list
 
-    print 'The distances whose round value is even are:'
-    print filter(lambda distance: distance % 2 == 0, [round(distance) for distance in distances])

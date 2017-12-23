@@ -40,7 +40,7 @@ if __name__ == '__main__':
     # While loop
     start_time = datetime.datetime.now()
     while datetime.datetime.now() - start_time < datetime.timedelta(seconds=5):
-        print '*',
+        print '*'
         time.sleep(1)
 
     # break and continue

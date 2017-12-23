@@ -14,4 +14,4 @@ def greet_me(name):
         print 'Go to sleep ' + name + '!'
 
 if __name__ == '__main__':
-    greet_me('Omer')
+    greet_me('John')
