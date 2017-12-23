@@ -1,4 +1,4 @@
-from classes import Animal
+from animal import Animal
 
 class Elephant(Animal):
     def __init__(self, weight, color, gender, age=None, trunk_length=None):

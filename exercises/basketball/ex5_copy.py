@@ -4,7 +4,7 @@ import numpy as np
 images = ['basketball1.jpg', 'basketball2.jpg', 'basketball3.jpg', 'basketball4.jpg', 'basketball5.jpg']
 
 if __name__ == '__main__':
-    image = cv2.imread(r'/home/administrator/Downloads/basketball/' + images[0])
+    image = cv2.imread(r'/home/student/intro_to_python/exercises/basketball/basketball/' + images[4])
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
     circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, 1.2, 200)
