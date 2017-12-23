@@ -2,14 +2,14 @@ from polygon import Polygon
 
 class Triangle(Polygon):
     def __init__(self, vertices, base_length, height):
-        super(Triangle, self).__init__(vertices)
-        self.base_length = base_length
-        self.height = height
+        # TODO: add your code here
+        pass
 
     def get_area(self):
-        return 0.5 * self.base_length * self.height
+        # TODO: add your code here
+        pass
 
 if __name__ == '__main__':
     t = Triangle(vertices=[(0,0), (2,0), (1, 3)], base_length=2, height=3)
-    print t.get_perimeter()
-    print t.get_area()
+    print t.get_perimeter() # expected: 8.32455532034
+    print t.get_area() # expected: 3.0
